@@ -1,7 +1,7 @@
 #file input,#speed input{
     text-align:right
 }
-#file,#results,#speed,.speedtest{
+#file,#results,#speed{
     text-align:center
 }
 body{
@@ -12,7 +12,7 @@ body{
 .bol{
     font-size:12pt;color:#000;font-weight:700
 }
-.content #downloadSimulatorWindow_,.content #file,.content #results,.content #speed,.speedtest{
+.content #downloadSimulatorWindow_,.content #file,.content #results,.content #speed{
     border:1px solid gray;border-radius:7px;background-color:#fff;width:96%;margin:20px auto
 }
 #speed .idkSpeed{
