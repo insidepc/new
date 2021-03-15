@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif;
 }
 #file input,#speed input{
     text-align:right
@@ -8,7 +9,7 @@ html{
     text-align:center
 }
 body{
-    font-family:roboto,sans-serif;background-color:#1A2C42;margin:0
+    font-family: 'Fira Sans', sans-serif;background-color:#1A2C42;margin:0
 }
 .content{display:block;margin-left:auto;margin-right:auto;width:600px}h1,h2,h3,h4{color:#444}.h1sp{color:#f0f0e6;line-height:1
 }
