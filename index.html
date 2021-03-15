@@ -5,7 +5,7 @@
 <meta charset="UTF-8"> 
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
-<title></title>
+<title>downloadtimecalculate</title>
   <meta name="Description" content=""/>
 <meta name="Keywords" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator">
 <link rel="stylesheet" type="" href="./pro 1/style.css">	
@@ -20,17 +20,16 @@
 
 	<form onsubmit="return false">
 	<div id="speed">
-		<h3>How fast is your internet speed?</h3>
+		<h3>Enter your download/upload speed</h3>
 
 		<p>
-			<label for="internetSpeed">Download/Upload Speed</label>
 			<input id="internetSpeed_p1" type="button" value="+" onclick="internetSpeed.value = (parseInt(internetSpeed.value)+1).toFixed(2)">
             <input id="internetSpeed" type="number" min="0" step="0.01" value="10" placeholder="Download speed" autofocus>
 
 
 			<input id="internetSpeed_p2" type="button" value="-" onclick="internetSpeed.value = (parseInt(internetSpeed.value)-1).toFixed(2)">
 
-			<select id="internetSpeedBase" aria-label="Unit of speed like Kbps, Mbps, Gbps">
+			<select id="internetSpeedBase" aria-label="Unit of speed like Kbps, Mbps, Gbps" style="padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;">
 				<option value="10^3">Kbps</option>
 				<option value="10^6" selected>Mbps</option>
             	<option value="10^9">Gbps</option>
@@ -68,15 +67,14 @@
 	</div>
 
 	<div id="file">
-		<h3>What is the size of the thing you want to download?</h3>
+		<h3>Enter your file size</h3>
 		<p>
-			<label for="fileSize">Download/Upload Size</label>
 			<input id="internetSpeed_p1" type="button" value="+" onclick="fileSize.value = (parseInt(fileSize.value)+1).toFixed(2)">
 
-            <input type="number" id="fileSize" value="1" step="0.01" min="0">
+            <input type="number" id="fileSize" value="1" step="0.01" min="0" style="padding:18px 22px; border:#fff solid 3px;background-color:#f0f0e6;">
 
 			<input id="internetSpeed_p2" type="button" aria-label="Data unit like KB, MB, GB" value="-" onclick="fileSize.value = (parseInt(fileSize.value)-1).toFixed(2)">
-			<select id="fileSizeBase">
+			<select id="fileSizeBase" style="padding:20px 22px; border: #fff solid 3px;background-color: #f0f0e6;">
 				<option value="2^10">KB </option>
 				<option value="2^20">MB </option>
 				<option value="2^30" selected>GB </option>
