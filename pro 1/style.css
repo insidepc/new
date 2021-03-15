@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #file input,#speed input{
     text-align:right
 }
