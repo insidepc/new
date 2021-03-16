@@ -73,7 +73,12 @@ body{
         margin:2px;font-size:18px;background:#fff;border:2px solid #b8b8b4;border-radius:4px;-webkit-box-shadow:#b8b8b4;
     }
     button{
-        background-color:#F4DB7D;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
+        background-color:#F4DB7D;border: #fff solid 3px;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
+    }
+    button:hover{
+        box-shadow:  0px 0px 3px 3px #F4DB7D;
+        -webkit-box-shadow: 0px 0px 3px 3px #F4DB7D;
+        -moz-box-shadow: 0px 0px 3px 3px #F4DB7D;
     }
     button:active{
         position:relative;top:11px
@@ -88,10 +93,16 @@ body{
         padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
     }
     #internetSpeed_p2:hover{
-        background-color:#FF6A3D;transition-duration:.3s;color:azure
+        background-color:#FF6A3D;transition-duration:.2s;color:azure;
+        box-shadow:  0px 0px 2px 2px #FF6A3D;
+        -webkit-box-shadow: 0px 0px 2px 2px #FF6A3D;
+        -moz-box-shadow: 0px 0px 2px 2px #FF6A3D;
     }
     #internetSpeed_p1:hover{
-        background-color:#9DAAF2;transition-duration:.3s;color:azure
+        background-color:#9DAAF2;transition-duration:.2s;color:azure;
+        box-shadow:  0px 0px 2px 2px #9DAAF2;
+        -webkit-box-shadow: 0px 0px 2px 2px #9DAAF2;
+        -moz-box-shadow: 0px 0px 2px 2px #9DAAF2;
     }
     #internetSpeed_p:active{
         position:relative;top:2px
