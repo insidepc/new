@@ -42,7 +42,7 @@
 
 		<p>
 			<input id="internetSpeed_p1" type="button" value="+" onclick="internetSpeed.value = (parseInt(internetSpeed.value)+1).toFixed(2)">
-            <input id="internetSpeed" type="number" min="0" step="0.01" value="10" placeholder="Download speed" autofocus>
+            <input id="internetSpeed" type="number" min="0" step="0.01" value="10" placeholder="" autofocus>
 
 
 			<input id="internetSpeed_p2" type="button" value="-" onclick="internetSpeed.value = (parseInt(internetSpeed.value)-1).toFixed(2)">
@@ -52,10 +52,10 @@
 				<option value="10^6" selected>Mbps</option>
             	<option value="10^9">Gbps</option>
 				<option value="10^12">Tbps</option>
-				<option value="10^15">Pbps</option>
-				<option value="10^18">Ebps</option>
-				<option value="10^21">Zbps</option>
-				<option value="10^24">Ybps</option>
+				<option value="8000^1">KB/s</option>
+				<option value="8000000^1">MB/s</option>
+				<option value="8000000000^1">GB/s</option>
+				<option value="8000000000000^1">TB/s</option>
 
 			</select>
 		</p>
@@ -130,7 +130,7 @@
 		<div id="results_inner">
 			<p class="time">0</p>
 			<p class="">to download/upload <span class="size"></span> </p>
-			<p class="">@ <span class="speed"></span>/sec</p>
+			<p class="">@ <span class="speed"></span>/s</p>
 			<p class=""><i class="fas fa-exclamation-triangle"></i> if there isnt any result that means its eathier takes a very long time (more than 30000 year) or too short time (less than 1s) to download/upload the file</p>
 		</div>
 
