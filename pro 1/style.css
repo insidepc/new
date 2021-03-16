@@ -5,27 +5,35 @@ html{
 #file input,#speed input{
     text-align:right
 }
-#file,#results,#speed{
+#file,#results,#speed,#sitename{
     text-align:center
 }
 body{
     font-family: 'Fira Sans', sans-serif;
     background-color:#1A2C42;
-    margin:0
+    margin: 20px;
 }
-.content{display:block;margin-left:auto;margin-right:auto;width:600px}h1,h2,h3,h4{color:#444}.h1sp{color:#f0f0e6;line-height:1
+.content,#sitename{display:block;margin-left:auto;margin-right:auto;width:600px}h1,h2,h3,h4{color:#444}.h1sp{color:#f0f0e6;line-height:1
 }
 .bol{
     font-size:12pt;color:#000;font-weight:700
 }
 .content #downloadSimulatorWindow_,.content #file,.content #results,.content #speed{
-    border:1px solid gray;border-radius:7px;background-color:#f0f0e6;width:96%;margin:20px auto
+    border:1px solid gray;border-radius:7px;background-color:#f0f0e6;width:96%;margin-top: 150px;
+}
+#sitename{
+    border:1px solid gray;border-radius:7px;background-color:#f0f0e6;
+}
+#speed{
+    padding-bottom: 20px;
+    
 }
 #speed .idkSpeed{
-    font-size:8pt;line-height:3
+    font-size:8pt;line-height:3;
+   
 }
 #speed .idkSpeed.mobile{
-    font-size:11pt
+    font-size:11pt;
 }
 #file input{
     font-size:16pt
@@ -58,7 +66,7 @@ body{
 #speedtest_mobile a{
     color:#FFF;margin:20px
 }
-    .center{
+    .center,{
         line-height:35px;font-size:26px;font-weight:300;text-shadow:0 1px rgba(white,.75)
     }
     input{
@@ -74,10 +82,10 @@ body{
         padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;
     }
     #internetSpeed_p1{
-        padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;
+        padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
     }
     #internetSpeed_p2{
-        padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;
+        padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
     }
     #internetSpeed_p2:hover{
         background-color:#FF6A3D;transition-duration:.3s;color:azure
@@ -96,7 +104,7 @@ body{
     }
     #internetSpeed{width:75px;padding:18px 7px 18px 18px}select{padding:18px 10px;border:0;font-size:18px;margin:2px}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
     @media screen and (max-width:600px){
-        .content{
+        .content,#sitename{
             width:100%
         }
         #downloadSimulatorWindow{
