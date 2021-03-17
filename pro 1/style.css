@@ -200,14 +200,13 @@ nav .icon-burger .line {
 		z-index: 9;
 		left: 10px;
 		right: 10px;
-		top: 61px;
+		top: 59px;
 		bottom: 100%;
 		width: auto;
 		height: auto;
 		flex-direction: column;
-		justify-content: space-evenly;
 		background-color: #1A2C42;
-        opacity: 60%;
+        opacity: 95%;
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
