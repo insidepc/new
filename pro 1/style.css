@@ -66,54 +66,61 @@ body{
 #speedtest_mobile a{
     color:#FFF;margin:20px
 }
-    .center{
-        line-height:35px;font-size:26px;font-weight:300;text-shadow:0 1px rgba(white,.75)
-    }
-    input{
-        margin:2px;font-size:18px;background:#fff;border:2px solid #b8b8b4;border-radius:4px;-webkit-box-shadow:#b8b8b4;
-    }
-    button{
-        background-color:#F4DB7D;border: #fff solid 3px;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
-    }
-    button:hover{
-        box-shadow:  0px 0px 3px 3px #F4DB7D;
-        -webkit-box-shadow: 0px 0px 3px 3px #F4DB7D;
-        -moz-box-shadow: 0px 0px 3px 3px #F4DB7D;
-    }
-    button:active{
-        position:relative;top:11px
-    }
-    #internetSpeed{
-        padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;
-    }
-    #internetSpeed_p1{
-        padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
-    }
-    #internetSpeed_p2{
-        padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
-    }
-    #internetSpeed_p2:hover{
-        background-color:#FF6A3D;transition-duration:.2s;color:azure;
-        box-shadow:  0px 0px 2px 2px #FF6A3D;
-        -webkit-box-shadow: 0px 0px 2px 2px #FF6A3D;
-        -moz-box-shadow: 0px 0px 2px 2px #FF6A3D;
-    }
-    #internetSpeed_p1:hover{
-        background-color:#9DAAF2;transition-duration:.2s;color:azure;
-        box-shadow:  0px 0px 2px 2px #9DAAF2;
-        -webkit-box-shadow: 0px 0px 2px 2px #9DAAF2;
-        -moz-box-shadow: 0px 0px 2px 2px #9DAAF2;
-    }
-    #internetSpeed_p:active{
-        position:relative;top:2px
-    }
-    #fileSize,#internetSpeed{
-        width:75px;padding:18px 7px 18px 18px
-    }
-    select{
-        padding:18px 10px;border:0;font-size:18px;margin:2px
-    }
-    #internetSpeed{width:75px;padding:18px 7px 18px 18px}select{padding:18px 10px;border:0;font-size:18px;margin:2px}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
+.center{
+    line-height:35px;font-size:26px;font-weight:300;text-shadow:0 1px rgba(white,.75)
+}
+input{
+    margin:2px;font-size:18px;background:#fff;border:2px solid #b8b8b4;border-radius:4px;-webkit-box-shadow:#b8b8b4;
+}
+button{
+    background-color:#F4DB7D;border: #fff solid 3px;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
+}
+button:hover{
+    box-shadow:  0px 0px 3px 3px #F4DB7D;
+    -webkit-box-shadow: 0px 0px 3px 3px #F4DB7D;
+    -moz-box-shadow: 0px 0px 3px 3px #F4DB7D;
+}
+button:active{
+    position:relative;top:11px
+}
+#internetSpeed{
+    padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;
+}
+#internetSpeed_p1{
+    padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
+}
+#internetSpeed_p2{
+    padding:18px 20px; border: #fff solid 3px;background-color: #f0f0e6;
+}
+#internetSpeed_p2:hover{
+    background-color:#FF6A3D;transition-duration:.2s;color:azure;
+    box-shadow:  0px 0px 2px 2px #FF6A3D;
+    -webkit-box-shadow: 0px 0px 2px 2px #FF6A3D;
+    -moz-box-shadow: 0px 0px 2px 2px #FF6A3D;
+}
+#internetSpeed_p1:hover{
+    background-color:#9DAAF2;transition-duration:.2s;color:azure;
+    box-shadow:  0px 0px 2px 2px #9DAAF2;
+    -webkit-box-shadow: 0px 0px 2px 2px #9DAAF2;
+    -moz-box-shadow: 0px 0px 2px 2px #9DAAF2;
+}
+#internetSpeed_p:active{
+    position:relative;top:2px
+}
+#fileSize,#internetSpeed{
+    width:75px;padding:18px 7px 18px 18px
+}
+select{
+    padding:18px 10px;border:0;font-size:18px;margin:2px
+}
+#internetSpeed{
+    width:75px;padding:18px 7px 18px 18px
+}
+select{
+    padding:18px 10px;border:0;font-size:18px;margin:2px
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
+
     @media screen and (max-width:600px){
         .content,#sitename{
             width:100%
