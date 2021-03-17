@@ -70,7 +70,7 @@ body{
     line-height:35px;font-size:26px;font-weight:300;text-shadow:0 1px rgba(white,.75)
 }
 input{
-    margin:2px;font-size:18px;background:#fff;border:2px solid #b8b8b4;border-radius:4px;-webkit-box-shadow:#b8b8b4;
+    margin:2px;font-size:18px;background:#fff;border:2px solid #b8b8b4;border-radius:4px;box-shadow:#b8b8b4;
 }
 button{
     background-color:#F4DB7D;border: #fff solid 3px;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
