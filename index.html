@@ -16,12 +16,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+	<section id="calcsec"></section>
 <script src="./pro 1/others.js"></script>
 <script src="./pro 1/main.js"></script>
 <nav>
 	<input id="nav-toggle" type="checkbox">
 	<div class="logo">DownloadTime<strong>Calculator</strong></div>
 	<ul class="links">
+		<li><a href="#calcsec"><i class="fas fa-calculator"></i></a></li>
 		<li><a href="#speedtestsec">Speed test</a></li>
 		<li><a href="#Dataunitssec">Data units</a></li>
 		<li><a href="#mbpssec">Mpbs vs MB/s</a></li>
@@ -193,24 +195,6 @@
 		</div>
 	</div>
 </div>
-<button onclick="topFunction()" id="scrollupbtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
-<script>
-	var mybutton = document.getElementById("scrollupbtn");
-	
-	window.onscroll = function() {scrollFunction()};
-	
-	function scrollFunction() {
-	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		mybutton.style.display = "block";
-	  } else {
-		mybutton.style.display = "none";
-	  }
-	}
-	function topFunction() {
-	  document.body.scrollTop = 0;
-	  document.documentElement.scrollTop = 0;
-	}
-	</script>
 
 </body>
 </html>
