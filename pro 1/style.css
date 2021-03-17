@@ -137,6 +137,7 @@ nav {
 	padding: 0 5%;
 	height: 50px;
 	background-color: #F4DB7D;
+    border: #000 solid 1px;
     border-radius: 20px;
     margin: 10px 10px 10px 10px;
 }
@@ -200,13 +201,14 @@ nav .icon-burger .line {
 		z-index: 9;
 		left: 10px;
 		right: 10px;
-		top: 59px;
+		top: 61px;
 		bottom: 100%;
 		width: auto;
 		height: auto;
 		flex-direction: column;
+		justify-content: space-evenly;
 		background-color: #1A2C42;
-        opacity: 95%;
+        opacity: 60%;
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
