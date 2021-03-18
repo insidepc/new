@@ -189,23 +189,24 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1900px) {
 	nav .logo {
 		float: none;
 		width: auto;
 		justify-content: center;
 	}
 	nav .links {
+        display: none;
 		float: none;
 		position: fixed;
 		z-index: 9;
 		left: 10px;
 		right: 10px;
 		top: 61px;
-		bottom: 100%;
+		bottom:50%;
 		width: auto;
-		height: auto;
-		flex-direction: column;
+		height: fit-content;
+		flex-direction: row;
 		justify-content: space-between;
 		background-color: #1A2C42;
         opacity: 60%;
@@ -223,6 +224,7 @@ nav .icon-burger .line {
 	}
 	nav :checked ~ .links {
 		bottom: 0;
+        display: flex;
 	}
 	nav .icon-burger {
 		display: block;
@@ -249,15 +251,32 @@ nav .icon-burger .line {
         color: #fff;
         margin-left: 70px;
     }
-    #scrollupbtn {
-        margin-top: 700px;
+    nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 10px;
+		right: 10px;
+		top: 61px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: #1A2C42;
+        opacity: 60%;
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+        border: solid 1px;
+        border-radius: 20px;
+	}
+    nav .links a:hover{
+        color: #F4DB7D;
     }
-    #scrollupbtn:hover{
-        box-shadow:  0px 0px 0px 0px #F4DB7D;
-        -webkit-box-shadow: 0px 0px 0px 0px #F4DB7D;
-        -moz-box-shadow: 0px 0px 0px 0px #F4DB7D;
-        opacity: 70%;
-    }
+	nav .links a {
+		font-size: 20px;
+	}
 }
     @media screen and (max-width:600px){
         .content,#sitename{
