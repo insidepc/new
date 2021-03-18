@@ -206,7 +206,7 @@ nav .icon-burger .line {
 		width: auto;
 		height: auto;
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		background-color: #1A2C42;
         opacity: 60%;
 		overflow: hidden;
