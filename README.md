@@ -1,4 +1,3 @@
-google-site-verification=4NRaWUsiXaek8tTynCrvMb8RdztIgYSeWBXCIsJGQx4
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/insidepc/new/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
