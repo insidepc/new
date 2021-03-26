@@ -7,7 +7,7 @@
 <title>downloadtimecalculater</title>
   <meta name="Description" content=""/>
 <meta name="Keywords" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator">
-<meta name="google-site-verification" content="6SSgS_r0M5ClSzbaBOBQynHrI_tFZhB-lmrvhF9V8jc" />
+<meta name="google-site-verification" content="AdiX6roeDA6Oo7K8yObEnavR46ZbJm7L67BjeIv9AaU" />
 <link rel="stylesheet" type="" href="./pro 1/style.css">	
 <link rel="stylesheet" type="" href="./fontawesome-free-5.15.2-web/css/all.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
