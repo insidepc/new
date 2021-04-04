@@ -3,10 +3,11 @@ html{
     font-family: 'Fira Sans', sans-serif;
 }
 .p123{
-     text-align:left;
+     text-align:center;
      margin-left: 15px;
      font-size: 20px;
      font-family: 'Fira Sans', sans-serif;
+     padding: 0%;
  }
 #file input,#speed input{
     text-align:right
