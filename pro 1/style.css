@@ -82,11 +82,7 @@ input{
 button{
     background-color:#F4DB7D;border: #fff solid 3px;border-radius:6px;color:#fff;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px
 }
-button:hover{
-    box-shadow:  0px 0px 3px 3px #F4DB7D;
-    -webkit-box-shadow: 0px 0px 3px 3px #F4DB7D;
-    -moz-box-shadow: 0px 0px 3px 3px #F4DB7D;
-}
+
 button:active{
     position:relative;top:11px
 }
