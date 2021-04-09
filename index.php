@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="preload" href="./pro 1/style.css" as="style">
 <link rel="preload" href="./pro 1/main.js" as="script">
+<link rel="preload" href="./fontawesome-free-5.15.2-web/" as="fa-folder">
 <script data-ad-client="ca-pub-5709272849899120" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="google-site-verification" content="AMjGGoryFAQxCi2-FCCnXoR5VCtVCAesAI2fxaRozTE" />
 </head>
