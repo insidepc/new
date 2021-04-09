@@ -191,7 +191,7 @@
 	<div class="content">
 		<div id="speed">
 			<h1>More</h1>
-<p class="p123" style="text-align: center;"><a style="text-decoration: none;" href="./More.php"><button style="background-color:#fafafa;border-radius:6px;color:#1A2C42;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px;">Click here</button></a></p>
+<p class="p123" style="text-align: center;"><a style="text-decoration: none;" href="./more.html"><button style="background-color:#fafafa;border-radius:6px;color:#1A2C42;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px;">Click here</button></a></p>
 		</div>
 	</div>
 </div>
