@@ -14,13 +14,14 @@
 <link rel="preload" href="./pro 1/style.css" as="style">
 <link rel="preload" href="./pro 1/main.js" as="script">
 <link rel="preload" href="./fontawesome-free-5.15.2-web/" as="fa-folder">
+<link rel="stylesheet" href="./pro 1/style.css" media="print" onload="this.media='all'">
 <script data-ad-client="ca-pub-5709272849899120" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="google-site-verification" content="AMjGGoryFAQxCi2-FCCnXoR5VCtVCAesAI2fxaRozTE" />
 </head>
 <body>
+	<script async src="./pro 1/main.js"></script>
+	<script defer src="./pro 1/main.js"></script>
 	<section id="calcsec"></section>
-<script src="./pro 1/others.js"></script>
-<script src="./pro 1/main.js"></script>
 <nav>
 	<input id="nav-toggle" type="checkbox">
 	<div class="logo"><strong>DownloadCalculator</strong></div>
