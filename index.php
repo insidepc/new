@@ -11,7 +11,8 @@
 <link rel="stylesheet" type="" href="./fontawesome-free-5.15.2-web/css/all.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-<meta name="google-site-verification" content="6SSgS_r0M5ClSzbaBOBQynHrI_tFZhB-lmrvhF9V8jc" />
+<script data-ad-client="ca-pub-5709272849899120" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="google-site-verification" content="AMjGGoryFAQxCi2-FCCnXoR5VCtVCAesAI2fxaRozTE" />
 </head>
 <body>
 	<section id="calcsec"></section>
