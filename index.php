@@ -202,13 +202,13 @@
 <section id="asksec"></section>
 <script>
     var disqus_config = function () {
-    this.page.url = 'https://downloadtimecalculator.netlify.app/';
+    this.page.url = 'https://downloadcalculator.herokuapp.com/';
     this.page.identifier = 'Downloadtime-calculater'; 
     };
 
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://downloadtime-calculator.disqus.com/embed.js';
+    s.src = 'https://download-calculator.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
