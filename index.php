@@ -119,7 +119,6 @@
 		<div id="results_inner">
 			<p class="time">0</p>
 			<p class="">to download/upload <span class="size"></span> </p>
-			<p class="">@ <span class="speed"></span>/s</p>
 			<p class=""><i class="fas fa-exclamation-triangle"></i> if there isnt any result that means its eathier takes a very long time (more than 30000 year) or too short time (less than 1s) to download/upload the file</p>
 		</div>
 
