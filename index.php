@@ -161,7 +161,7 @@
 	<section id="mbpssec"></section>
 	<div class="content">
 		<div id="speed">
-			<h1>Difference between  Mbps MB/s</h1>
+			<h1>Difference between Mbps and MB/s</h1>
 <p class="p123">A Lot of people may not know the difference between Mbps and MB/s, Mbps stands for Megabit per second but MB/s stands for Megabyte per second, (Byte > Bit)</p>
 <p class="p123">To convert from Megabit to Megabyte Divide the number by 8 and to convert form Megabyte to Megabit Multiply the number by 8</p>
 <p class="p123" style="text-align: center; color: #F4DB7D;font-size: x-large;"><b>Example :</b></p>
