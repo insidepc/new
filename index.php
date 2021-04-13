@@ -31,8 +31,8 @@
 		<li><a href="#Dataunitssec">Data units</a></li>
 		<li><a style="text-align: center;" href="#mbpssec">Difference between Mpbs and MB/s</a></li>
 		<li><a href="#connectsec">Connections speed</a></li>
-		<li><a href="#otherssec">More</a></li>
 		<li><a href="#asksec">Ask the community</a></li>
+		<li><a href="./more.html"><i class="fas fa-question-circle"></i></a></li>
 	</ul>
 	<label for="nav-toggle" class="icon-burger">
 		<div class="line"></div>
@@ -186,15 +186,6 @@
 <p class="p123">4G = form form 5Mbps up to 100Mbps</p>
 <p class="p123">5G = from 200Mbps up to 1000Mbps(1Gbps)</p>
 <p class="p123">Fiber optic = the maximum speed of the fiber optic is 10000 Mbps (10Gbps) (fiber optic speed depends on Your subscription, usuall internet providers offer speeds from 20Mbps up to 1000Mbps)</p>
-		</div>
-	</div>
-</div>
-<div class="desktopcenter">
-	<section id="otherssec"></section>
-	<div class="content">
-		<div id="speed">
-			<h1>More</h1>
-<p class="p123" style="text-align: center;"><a style="text-decoration: none;" href="./more.html"><button style="background-color:#fafafa;border-radius:6px;color:#1A2C42;font-weight:700;border:none;width:187px;height:54px;position:relative;font-size:17px;cursor:pointer;margin-top:0;top:9px;">Click here</button></a></p>
 		</div>
 	</div>
 </div>
