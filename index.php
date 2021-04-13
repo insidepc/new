@@ -32,7 +32,7 @@
 		<li><a style="text-align: center;" href="#mbpssec">Difference between Mpbs and MB/s</a></li>
 		<li><a href="#connectsec">Connections speed</a></li>
 		<li><a href="#asksec">Ask the community</a></li>
-		<li><a href="./more.html"><i class="fas fa-question-circle"></i></a></li>
+		<li><a href="./help.html"><i class="fas fa-question-circle"></i></a></li>
 	</ul>
 	<label for="nav-toggle" class="icon-burger">
 		<div class="line"></div>
