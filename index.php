@@ -31,7 +31,7 @@
 		<li><a href="#Dataunitssec">Data units</a></li>
 		<li><a style="text-align: center;" href="#mbpssec">Difference between Mpbs and MB/s</a></li>
 		<li><a href="#connectsec">Connections speed</a></li>
-		<li><a href="#asksec">Ask the community</a></li>
+		<li><a href="#moresec">More</a></li>
 		<li><a href="./help.html"><i class="fas fa-question-circle"></i></a></li>
 	</ul>
 	<label for="nav-toggle" class="icon-burger">
@@ -189,21 +189,13 @@
 		</div>
 	</div>
 </div>
-<div id="disqus_thread"></div>
-<section id="asksec"></section>
-<script>
-    var disqus_config = function () {
-    this.page.url = 'https://downloadcalculator.herokuapp.com/';
-    this.page.identifier = 'Downloadtime-calculater'; 
-    };
-
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://download-calculator.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div class="desktopcenter">
+	<section id="moresec"></section>
+	<div class="content">
+		<div id="speed">
+			<h1>More</h1>
+		</div>
+	</div>
+</div>
 </body>
 </html>
