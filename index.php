@@ -22,25 +22,34 @@
 	<script async src="./pro 1/main.js"></script>
 	<script defer src="./pro 1/main.js"></script>
 	<section id="calcsec"></section>
-<nav>
-	<input id="nav-toggle" type="checkbox">
-	<div class="logo"><strong>DownloadCalculator</strong></div>
-	<ul class="links">
-		<li><a href="#calcsec"><i class="fas fa-calculator"></i></a></li>
-		<li><a href="#speedtestsec">Speed test</a></li>
-		<li><a href="#Dataunitssec">Data units</a></li>
-		<li><a style="text-align: center;" href="#mbpssec">Difference between Mpbs and MB/s</a></li>
-		<li><a href="#connectsec">Connections speed</a></li>
-		<li><a href="#moresec">More</a></li>
-		<li><a href="./help.html"><i class="fas fa-question-circle"></i></a></li>
-	</ul>
-	<label for="nav-toggle" class="icon-burger">
-		<div class="line"></div>
-		<div class="line"></div>
-		<div class="line"></div>
-	</label>
-</nav>
-	
+	<div id="navbar">
+		<input id="nav-toggle" style="display: none;" type="checkbox">
+		<h1><strong>DownloadCalculator</strong></h1>
+		<ul class="links">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#work">Work</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<label for="nav-toggle" class="icon-burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+	  </div>
+	  <script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-75px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+		</script>
 		<div class="desktopcenter">
 		<div class="content">
 
