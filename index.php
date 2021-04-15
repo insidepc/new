@@ -11,7 +11,6 @@
 <link rel="stylesheet" type="" href="./fontawesome-free-5.15.2-web/css/all.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-<link rel="preload" href="./pro 1/style.css" as="style">
 <link rel="preload" href="./pro 1/main.js" as="script">
 <link rel="preload" href="./fontawesome-free-5.15.2-web/" as="fa-folder">
 <link rel="stylesheet" href="./pro 1/style.css" media="print" onload="this.media='all'">
