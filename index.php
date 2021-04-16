@@ -20,22 +20,23 @@
 	<script defer src="./pro 1/main.js"></script>
 	<section id="calcsec"></section>
 	<div id="navbar">
-		<input id="nav-toggle" style="display: none;" type="checkbox">
+		<input id="nav-toggle" style="display: none;" type="checkbox" >
 		<h1><strong>DownloadCalculator</strong></h1>
-		<ul class="links">
-			<li><a href="#calcsec"><i class="fas fa-calculator"></i></a></li>
-			<li><a href="#speedtestsec">Speed test</a></li>
-			<li><a href="#Dataunitssec">All the Data units</a></li>
-			<li><a href="#mbpssec">Difference between Mbps and MB/s</a></li>
-			<li><a href="#connectsec">Different Connections speed</a></li>
-			<li><a href="#moresec">More</a></li>
-			<li><a href="./help.html"><i class="fas fa-question-circle"></i></a></li>
+		<ul id="links">
+			<li><a onclick="myFunction()" href="#calcsec"><i class="fas fa-calculator"></i></a></li>
+			<li><a onclick="myFunction()" href="#speedtestsec">Speed test</a></li>
+			<li><a onclick="myFunction()" href="#Dataunitssec">All the Data units</a></li>
+			<li><a onclick="myFunction()" href="#mbpssec">Difference between Mbps and MB/s</a></li>
+			<li><a onclick="myFunction()" href="#connectsec">Different Connections speed</a></li>
+			<li><a onclick="myFunction()" href="#moresec">More</a></li>
+			<li><a onclick="myFunction()" href="./help.html"><i class="fas fa-question-circle"></i></a></li>
 		</ul>
-		<label for="nav-toggle" class="icon-burger">
-			<div class="line"></div>
-			<div class="line"></div>
-			<div class="line"></div>
+		<label for="nav-toggle" id="icon-burger" >
+		 <i onclick="myFunctionT()" class="fas fa-bars" style="color: #fff;font-size: 40px;"></i>
 		</label>
+		<a id="icon-burger2">
+			<i onclick="myFunctionX()" class="fas fa-times" style="color: #fff;font-size: 40px;"></i>
+		</a>
 	  </div>
 	  <script>
 		var prevScrollpos = window.pageYOffset;
@@ -48,6 +49,24 @@
 		  }
 		  prevScrollpos = currentScrollPos;
 		}
+		</script>
+		
+		<script>
+function myFunction() {
+    document.getElementById('links').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: hidden;';
+}	
+function myFunctionT(){
+	document.getElementById('links').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: visible;';
+}
+function myFunctionX(){
+	document.getElementById('links').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: hidden;';
+}
 		</script>
 		<div class="desktopcenter">
 		<div class="content">
