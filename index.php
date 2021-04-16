@@ -29,6 +29,7 @@
 			<li><a href="#mbpssec">Difference between Mbps and MB/s</a></li>
 			<li><a href="#connectsec">Different Connections speed</a></li>
 			<li><a href="#moresec">More</a></li>
+			<li><a href="./help.html"><i class="fas fa-question-circle"></i></a></li>
 		</ul>
 		<label for="nav-toggle" class="icon-burger">
 			<div class="line"></div>

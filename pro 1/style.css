@@ -309,6 +309,6 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 @media screen and (max-width:1000px) {
     #navbar .links {
         margin-left: 60%;
-        margin-bottom: 170px;
+        margin-bottom: 120px;
     }
 }
