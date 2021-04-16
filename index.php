@@ -12,8 +12,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="preload" href="./pro 1/main.js" as="script">
-<link rel="preload" href="./fontawesome-free-5.15.2-web/" as="fa-folder">
-<link rel="stylesheet" href="./pro 1/style.css" media="print" onload="this.media='all'">
 <script data-ad-client="ca-pub-5709272849899120" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="google-site-verification" content="AMjGGoryFAQxCi2-FCCnXoR5VCtVCAesAI2fxaRozTE" />
 </head>
@@ -25,11 +23,12 @@
 		<input id="nav-toggle" style="display: none;" type="checkbox">
 		<h1><strong>DownloadCalculator</strong></h1>
 		<ul class="links">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#work">Work</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#calcsec"><i class="fas fa-calculator"></i></a></li>
+			<li><a href="#speedtestsec">Speed test</a></li>
+			<li><a href="#Dataunitssec">All the Data units</a></li>
+			<li><a href="#mbpssec">Difference between Mbps and MB/s</a></li>
+			<li><a href="#connectsec">Different Connections speed</a></li>
+			<li><a href="#moresec">More</a></li>
 		</ul>
 		<label for="nav-toggle" class="icon-burger">
 			<div class="line"></div>
@@ -44,7 +43,7 @@
 		  if (prevScrollpos > currentScrollPos) {
 			document.getElementById("navbar").style.top = "0";
 		  } else {
-			document.getElementById("navbar").style.top = "-75px";
+			document.getElementById("navbar").style.top = "-55px";
 		  }
 		  prevScrollpos = currentScrollPos;
 		}
