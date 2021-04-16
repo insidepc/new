@@ -274,7 +274,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
             flex-direction: column;
             justify-content: space-between;
             background-color: #1A2C42;
-            opacity: 60%;
+            opacity: 90%;
             margin-left: 75%;
             box-sizing: border-box;
             transition: all .5s ease-in-out;
