@@ -6,7 +6,7 @@
 <meta name="format-detection" content="telephone=no">
 <title>downloadcalculater</title>
   <meta name="Description" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator"/>
-<meta name="Keywords" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator">
+<meta name="Keywords" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator,DownloadCalculator,DownloadtimeCalculator">
 <link rel="stylesheet" type="" href="./pro 1/style.css">	
 <link rel="stylesheet" type="" href="./fontawesome-free-5.15.2-web/css/all.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
