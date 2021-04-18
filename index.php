@@ -259,8 +259,8 @@ Jitter in Internet Protocol (IP) networks is the variation in the latency on a p
 <section id="gamelagsec"></section>
 	<div class="content">
 		<div id="speed">
-			<h1>Other resonse for game lag</h1>
-<p class="p123">Sometimes your game starts lagging even tho you have a good internet connection, that probubly because od your hardware spically if your pc is mid or low end </p>
+			<h1>Other reasons for game lag</h1>
+<p class="p123">Sometimes your game starts lagging even tho you have a good internet connection, that probably because of your hardware especially if your pc is mid or low end</p>
 <p class="p123">How to solve it?</p>
 <p class="p123">to solve the hardware lag you need to</p>
 <p class="p123"><a href="./optimize.html">Optimze your pc for gaming</a></p>
