@@ -193,7 +193,7 @@ function myFunctionX(){
 		<div id="speed">
 			<h1>Difference between Mbps and MB/s</h1>
 <p class="p123">A Lot of people may not know the difference between Mbps and MB/s, Mbps stands for Megabit per second but MB/s stands for Megabyte per second, (Byte > Bit)</p>
-<p class="p123">To convert from Megabit to Megabyte Divide the number by 8 and to convert form Megabyte to Megabit Multiply the number by 8</p>
+<p class="p123">To convert from Megabit to Megabyte Divide the number by 8 and to convert from Megabyte to Megabit Multiply the number by 8</p>
 <p class="p123" style="text-align: center; color: #F4DB7D;font-size: x-large;"><b>Example :</b></p>
 <p class="p123" style="text-align:center;"><B>20Mbps</B> <i class="fas fa-divide"></i><b> 8 <i class="fas fa-equals"></i> 2.5MB/s</b> </p>
 <p class="p123" style="text-align: center;"><b>5Mb/s </b><i class="fas fa-times"></i><b> 8 <i class="fas fa-equals"></i> 40Mbps</b> </p>
@@ -215,7 +215,7 @@ function myFunctionX(){
 <p class="p123">LAN = from 10Mbps up to 100Mbps</p>
 <p class="p123">4G = form form 5Mbps up to 100Mbps</p>
 <p class="p123">5G = from 200Mbps up to 1000Mbps(1Gbps)</p>
-<p class="p123">Fiber optic = the maximum speed of the fiber optic is 10000 Mbps (10Gbps) (fiber optic speed depends on Your subscription, usuall internet providers offer speeds from 20Mbps up to 1000Mbps)</p>
+<p class="p123">Fiber-optic = the maximum speed of the fiber-optic is 10000 Mbps (10Gbps) (fiber optic speed depends on Your subscription, usually internet providers offer speeds from 20Mbps up to 1000Mbps)</p>
 		</div>
 	</div>
 </div>
@@ -225,8 +225,8 @@ function myFunctionX(){
 	<div class="content">
 		<div id="speed">
 			<h1>How to increase download speed</h1>
-<p class="p123">In some cases even if you have a high-speed broadband connection some files may download at a really slow speed depending on the database location that you are trying to get your files of You can use download managers to help speeding up ur download speed such as Internet Download Manager. This software can do multiple simultaneous connections to the server and that increase your download speed</p>
-<p class="p123" >list of Download Mangers</p>
+<p class="p123">In some cases even if you have a high-speed broadband connection some files may download at a really slow speed depending on the database location that you are trying to get files of You can use download managers to help speeding up ur download speed such as the Internet Download Manager. This software can do multiple simultaneous connections to the server and that increase your download speed</p>
+<p class="p123" >list of Download Managers</p>
 <p class="p123"><a href="https://www.freedownloadmanager.org/">Free Download Manager (FDM)</a></p>
 <p class="p123"><a href="https://www.internetdownloadmanager.com/">Internet Download Manager (IDM)</a></p>
 <p class="p123"><a href="https://jdownloader.org/jdownloader2">JDownloader 2</a></p>
@@ -240,9 +240,9 @@ function myFunctionX(){
 		<div id="speed">
 			<h1>Ping and Jitter</h1>
 <p class="p123">The ping is the reaction time of your connection, how fast you get a response after you've sent out a request. A fast ping means a more responsive connection, especially in shooter games like Call of Duty, Fortnite, Valorant, Counter-Strike, etc where timing is everything Ping is measured in milliseconds (ms)</p>
-<p class="p123">Jitter is any deviation in, or displacement of, the signal pulses in a high-frequency digital signal. The deviation can be in terms of amplitude, phase timing or the width of the signal pulse.
+<p class="p123">Jitter is any deviation in, or displacement of, the signal pulses in a high-frequency digital signal. The deviation can be in terms of amplitude, phase timing, or the width of the signal pulse.
 
-Jitter in Internet Protocol (IP) networks is the variation in the latency on a packet flow between two systems when some packets take longer to travel from one system to the other. Jitter results from network congestion, timing drift and route changes.</p>
+Jitter in Internet Protocol (IP) networks is the variation in the latency on a packet flow between two systems when some packets take longer to travel from one system to the other. Jitter results from network congestion, timing drift, and route changes.</p>
 		</div>
 	</div>
 </div>
@@ -251,7 +251,7 @@ Jitter in Internet Protocol (IP) networks is the variation in the latency on a p
 	<div class="content">
 		<div id="speed">
 			<h1>Packet loss</h1>
-<p class="p123">Packet loss is the failure of packets to arrive at their destination. This can happen for many reasons. Some are related to the design of the network. For example some TCP/IP stacks use a method called slow start in an attempt to control congestion. The slow start algorithm inserts traffic into the network until packet loss occurs. Using this algorithm, TCP/IP stacks using slow start can quickly determine the maximum rate they can insert data into the network before causing congestion</p>
+<p class="p123">Packet loss is the failure of packets to arrive at their destination. This can happen for many reasons. Some are related to the design of the network. For example, some TCP/IP stacks use a method called slow start in an attempt to control congestion. The slow start algorithm inserts traffic into the network until packet loss occurs. Using this algorithm, TCP/IP stacks using slow start can quickly determine the maximum rate they can insert data into the network before causing congestion</p>
 		</div>
 	</div>
 </div>
@@ -259,7 +259,7 @@ Jitter in Internet Protocol (IP) networks is the variation in the latency on a p
 <section id="gamelagsec"></section>
 	<div class="content">
 		<div id="speed">
-			<h1>Other reasons for game lag</h1>
+			<h1>Another reason for the game lag</h1>
 <p class="p123">Sometimes your game starts lagging even tho you have a good internet connection, that probably because of your hardware especially if your pc is mid or low end</p>
 <p class="p123">How to solve it?</p>
 <p class="p123">to solve the hardware lag you need to</p>
