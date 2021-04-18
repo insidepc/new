@@ -31,7 +31,7 @@
 			<li><a onclick="myFunction()" href="#increasedownloadspeedsec">How to increase download speed</a></li>
 			<li><a onclick="myFunction()" href="#pingsec">Ping and Jitter</a></li>
 			<li><a onclick="myFunction()" href="#packetsec">Packet loss</a></li>
-			<li><a onclick="myFunction()" href="#gamelagsec">Other resonse for game lag</a></li>
+			<li><a onclick="myFunction()" href="#gamelagsec">Another reason for the game lag</a></li>
 
 		</ul>
 		<label for="nav-toggle" id="icon-burger" >
