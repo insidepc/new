@@ -32,7 +32,9 @@
 			<li><a onclick="myFunction()" href="#pingsec">Ping and Jitter</a></li>
 			<li><a onclick="myFunction()" href="#packetsec">Packet loss</a></li>
 			<li><a onclick="myFunction()" href="#gamelagsec">Another reason for the game lag</a></li>
-
+			<li><a onclick="myFunction()" href="./upload.html">UploadCalculator</a></li>
+			<li><a onclick="myFunction()" href="./bandwidth-calculator.html">BandwidthCalculator</a></li>
+			<li><a onclick="myFunction()" href="./data-transfer.html">DataTransferCalculator</a></li>
 		</ul>
 		<label for="nav-toggle" id="icon-burger" >
 		 <i onclick="myFunctionT()" class="fas fa-bars" style="color: #fff;font-size: 40px;"></i>
@@ -77,7 +79,7 @@ function myFunctionX(){
 	<form onsubmit="return false">
 	<div id="speed" style="padding-top: 40px; margin-top: 80px;">
 		<div id="section1">
-		<h3>Enter your download/upload speed <i class="fas fa-wifi"></i></h3>
+		<h3>Enter your download speed <i class="fas fa-download"></i></h3>
 
 		<p>
 			<input id="internetSpeed_p1" type="button" value="+" onclick="internetSpeed.value = (parseInt(internetSpeed.value)+1).toFixed(2)">
@@ -148,8 +150,8 @@ function myFunctionX(){
 
 		<div id="results_inner">
 			<p class="time">0</p>
-			<p class="">to download/upload <span class="size"></span> </p>
-			<p class=""><i class="fas fa-exclamation-triangle"></i> if there isnt any result that means its eathier takes a very long time (more than 30000 year) or too short time (less than 1s) to download/upload the file</p>
+			<p class="">to download <span class="size"></span> </p>
+			<p class=""><i class="fas fa-exclamation-triangle"></i> if there isnt any result that means its eathier takes a very long time (more than 30000 year) or too short time (less than 1s) to download the file</p>
 		</div>
 
 
@@ -164,9 +166,6 @@ function myFunctionX(){
 <div class="main">
 	<iframe width="100%" height="650px" frameborder="0" src="https://hamza1224.speedtestcustom.com"></iframe>
 </div>
-
-
-<a href="" style="display: none;"></a>
 
 <div class="desktopcenter">
 	<section id="Dataunitssec"></section>
@@ -264,6 +263,19 @@ Jitter in Internet Protocol (IP) networks is the variation in the latency on a p
 <p class="p123">How to solve it?</p>
 <p class="p123">to solve the hardware lag you need to</p>
 <p class="p123"><a href="./optimize.html">Optimze your pc for gaming</a></p>
+
+		</div>
+	</div>
+</div>
+<div class="desktopcenter">
+	
+	<div class="content">
+		<div id="speed">
+			<h1>More</h1>
+<p class="p123"><a href="./upload.html">Upload calculator</a></p>
+<p class="p123"><a href="./bandwidth-calculator.html">Bandwidth calculator</a></p>
+<p class="p123"><a href="./data-transfer.html">Data transfer calculator</a></p>
+<p class="p123"><a href="./Privacy-Policy.html">Privacy Policy</a></p>
 
 		</div>
 	</div>

@@ -1,0 +1,183 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <title>UploadCalculator</title>
+          <meta name="Description" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator"/>
+        <meta name="Keywords" content="download,time,calculate, Estimate,bandwidth,broadband,downloadspeed,speed,upload,upload time calculator,DownloadCalculator,DownloadtimeCalculator">
+        <link rel="stylesheet" type="" href="./pro 1/style.css">	
+        <link rel="stylesheet" type="" href="./fontawesome-free-5.15.2-web/css/all.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preload" href="./pro 1/main.js" as="script">
+        <script data-ad-client="ca-pub-5709272849899120" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <meta name="google-site-verification" content="AMjGGoryFAQxCi2-FCCnXoR5VCtVCAesAI2fxaRozTE" />
+        </head>
+<body>
+    <section id="calcsec"></section>
+    <script src="./pro 1/others.js"></script>
+    <script src="./pro 1/main.js"></script>
+    <section id="calcsec"></section>
+	<div id="navbar">
+		<input id="nav-toggle" style="display: none;" type="checkbox" >
+		<h1><strong>UploadCalculator</strong></h1>
+		<ul id="links">
+			<li><a onclick="myFunction()" href="#calcsec"><i class="fas fa-calculator"></i></a></li>
+			<li><a onclick="myFunction()" href="./index.php#speedtestsec">Speed test</a></li>
+			<li><a onclick="myFunction()" href="./index.php#Dataunitssec">All the Data units</a></li>
+			<li><a onclick="myFunction()" href="./index.php#mbpssec">Difference between Mbps and MB/s</a></li>
+			<li><a onclick="myFunction()" href="./index.php#connectsec">Different Connections speed</a></li>
+            <li><a onclick="myFunction()" href="./index.php#increasedownloadspeedsec">How to increase download speed</a></li>
+			<li><a onclick="myFunction()" href="./index.php#pingsec">Ping and Jitter</a></li>
+			<li><a onclick="myFunction()" href="./index.php#packetsec">Packet loss</a></li>
+			<li><a onclick="myFunction()" href="./index.php#gamelagsec">Other resonse for game lag</a></li>
+			<li><a onclick="myFunction()" href="./index.php">DownloadCalculator</a></li>
+			<li><a onclick="myFunction()" href="./bandwidth-calculator.html">BandwidthCalculator</a></li>
+			<li><a onclick="myFunction()" href="./data-transfer.html">DataTransferCalculator</a></li>		</ul>
+		<label for="nav-toggle" id="icon-burger" >
+		 <i onclick="myFunctionT()" class="fas fa-bars" style="color: #fff;font-size: 40px;"></i>
+		</label>
+		<a id="icon-burger2">
+			<i onclick="myFunctionX()" class="fas fa-times" style="color: #fff;font-size: 40px;"></i>
+		</a>
+	  </div>
+	  <script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-55px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+		</script>
+		
+		<script>
+function myFunction() {
+    document.getElementById('links').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: hidden;';
+}	
+function myFunctionT(){
+	document.getElementById('links').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: visible;';
+}
+function myFunctionX(){
+	document.getElementById('links').style.cssText = 'visibility: hidden;';
+	document.getElementById('icon-burger').style.cssText = 'visibility: visible;';
+	document.getElementById('icon-burger2').style.cssText = 'visibility: hidden;';
+}
+		</script>
+
+<div class="desktopcenter">
+	<div class="content">
+
+<form onsubmit="return false">
+<div id="speed" style="padding-top: 40px; margin-top: 80px;">
+	<div id="section1">
+	<h3>Enter your upload speed <i class="fas fa-upload"></i></h3>
+
+	<p>
+		<input id="internetSpeed_p1" type="button" value="+" onclick="internetSpeed.value = (parseInt(internetSpeed.value)+1).toFixed(2)">
+		<input id="internetSpeed" type="number" min="0" step="0.01" value="10" placeholder="" autofocus>
+
+
+		<input id="internetSpeed_p2" type="button" value="-" onclick="internetSpeed.value = (parseInt(internetSpeed.value)-1).toFixed(2)">
+
+		<select id="internetSpeedBase" aria-label="Unit of speed like Kbps, Mbps, Gbps" style="padding:18px 22px; border: #fff solid 3px;background-color: #f0f0e6;">
+			<option value="10^3">Kbps</option>
+			<option value="10^6" selected>Mbps</option>
+			<option value="10^9">Gbps</option>
+			<option value="10^12">Tbps</option>
+			<option value="8000^1">KB/s</option>
+			<option value="8000000^1">MB/s</option>
+			<option value="8000000000^1">GB/s</option>
+			<option value="8000000000000^1">TB/s</option>
+
+		</select>
+	</p>
+
+		<a href="#speedtestsec" style="color: #FF6A3D; text-decoration: none;"><i class="fas fa-exclamation-triangle"></i> Click here if you dont know your internet Speed to test it</a>
+	</div>
+
+	<div>
+		
+	</div>
+	<div>
+		<p class="overhead-p" style="display: none;"><label for="internetOverhead">Overhead</label>
+			<select id="internetOverhead" style="display: none;">
+				<option value="1" selected>None</option>
+			</select>
+		
+		</p>
+	</div>
+</div>
+
+
+<div id="file">
+	<h3>Enter your file size <i class="fas fa-folder"></i></h3>
+	<p>
+		<input id="internetSpeed_p1" type="button" value="+" onclick="fileSize.value = (parseInt(fileSize.value)+1).toFixed(2)">
+
+		<input type="number" id="fileSize" value="1" step="0.01" min="0" style="padding:18px 22px; border:#fff solid 3px;background-color:#f0f0e6;">
+
+		<input id="internetSpeed_p2" type="button" aria-label="Data unit like KB, MB, GB" value="-" onclick="fileSize.value = (parseInt(fileSize.value)-1).toFixed(2)">
+		<select id="fileSizeBase" style="padding:20px 22px; border: #fff solid 3px;background-color: #f0f0e6;">
+			<option value="2^10">KB </option>
+			<option value="2^20">MB </option>
+			<option value="2^30" selected>GB </option>
+			<option value="2^40">TB </option>
+			<option value="2^50">PB </option>
+			<option value="2^60">EB </option>
+			<option value="2^70">ZB </option>
+			<option value="2^80">YB </option>
+		</select>
+	</p>
+
+	<p>
+		<button id="calculateButton" style="border: #fff solid 3px;">=</button>
+	</p>
+</div>
+
+</form>
+
+
+<div id="results">
+
+	<div id="results_inner">
+		<p class="time">0</p>
+		<p class="">to upload <span class="size"></span> </p>
+		<p class=""><i class="fas fa-exclamation-triangle"></i> if there isnt any result that means its eathier takes a very long time (more than 30000 year) or too short time (less than 1s) to upload the file</p>
+	</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>	
+<section id="speedtestsec"></section>
+<div class="main">
+<iframe width="100%" height="650px" frameborder="0" src="https://hamza1224.speedtestcustom.com"></iframe>
+</div>
+<div class="desktopcenter">
+	
+	<div class="content">
+		<div id="speed">
+			<h1>More</h1>
+<p class="p123"><a href="./upload.html">Upload calculator</a></p>
+<p class="p123"><a href="./bandwidth-calculator.html">Bandwidth calculator</a></p>
+<p class="p123"><a href="./data-transfer.html">Data transfer calculator</a></p>
+<p class="p123"><a href="./Privacy-Policy.html">Privacy Policy</a></p>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
