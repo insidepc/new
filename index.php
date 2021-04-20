@@ -276,6 +276,7 @@ Jitter in Internet Protocol (IP) networks is the variation in the latency on a p
 <p class="p123"><a href="./bandwidth-calculator.html">Bandwidth calculator</a></p>
 <p class="p123"><a href="./data-transfer.html">Data transfer calculator</a></p>
 <p class="p123"><a href="./Privacy-Policy.html">Privacy Policy</a></p>
+<p class="p123"><a href="./Terms-of-use.html">Terms of use</a></p>
 
 		</div>
 	</div>
